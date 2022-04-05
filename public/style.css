@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(48, 17, 244);
+}
+
+.new-info .container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.new-card{
+    margin: 0 auto; 
+    background-color: #fff;
+    width:70%;
+    height: 300px;
+    border-radius: 10px;
+    margin-top:70px;
+}
+
+.card-info{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.card-email{
+    margin-top:40px;
+}
+
+.info{
+    color: #fff;
+}
+
+.check{
+    outline: none;
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+.email{
+    border:none; 
+    outline: none;
+    border-bottom: 1px solid #000;
+    margin-left:15px;
+}
